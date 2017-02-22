@@ -6,7 +6,7 @@
 
   we have 2 module `wisecloud` and `wisecloud_status` and packaging as  `my_module.wbm.gz` for Webmin
 <pre>
-$ tar cvzf my_module.wbm.gz ./wisecloud ./wisecloud_status/
+$ tar cvzf ./wiseagent_module_linux_v1.0.x.wbm.gz ./wisecloud wisecloud_status/
 </pre>
 
 # How to install Webmin module
