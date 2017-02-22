@@ -50,6 +50,23 @@ local $serverip = $conf->{BaseSettings}->{ServerIP};
 return $serverip;
 }
 
+sub agent_devicename
+{
+local $conf = &get_agent_config();
+local $devicename = $conf->{Profiles}->{DeviceName};
+return $devicename;
+}
+
+# agent_id()
+# Return the devid
+sub agent_devid
+{
+local $conf = &get_agent_config();
+local $devid = $conf->{Profiles}->{DevID};
+return $devid;
+}
+
+
 # is_agent_installed()
 sub is_agent_installed
 {

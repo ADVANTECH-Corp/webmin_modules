@@ -14,6 +14,7 @@ open(FILE, "> $config{'wise_conf'}");
 print FILE "[Cloudserver]\n";
 print FILE "ServerIP = $in{'serverip'}\n";
 print FILE "DeviceName = $in{'devicename'}\n";
+print FILE "DevID = $in{'devid'}\n";
 print FILE "[IntelAMT]\n";
 print FILE "AmtId = $in{'amtid'}\n";
 print FILE "AmtPwd = $in{'amtpwd'}\n";
